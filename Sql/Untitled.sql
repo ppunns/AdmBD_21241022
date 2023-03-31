@@ -38,7 +38,7 @@ CREATE TABLE `employes` (
   `firstName` varchar(255),
   `extension` varchar(255),
   `email` varchar(255),
-  `officeCOde` int(fk),
+  `officeCOde` int,
   `reportsTo` varchar(255),
   `jobTitle` varchar(255)
 );
