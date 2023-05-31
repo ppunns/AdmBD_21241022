@@ -17,7 +17,7 @@ WHERE kode_pelanggan = 'dqlabcust07' AND  qty > 1;
 
 -- LIKE
 -- %a memilih nilai yang berrakhir a, a% memilih nilai awalnya a,%ama% dimanapun kata ama,NOT LIKE yang tidak disukai
--- c_t mencocokan nilai awanya a dan nilai akhirnya t seperti cut, _a mencocok nilainya a
+-- c_t mencocokan nilai awanya a dan nilai akhirnya t seperti cut, _a 
 SELECT nama_produk FROM tr_penjualan_dqlab WHERE nama_produk LIKE 'f%';
 -- Latihan Mandiri
 SELECT nama_produk FROM tr_penjualan_dqlab WHERE nama_produk LIKE '_a%';
